@@ -1,0 +1,11 @@
+name: New Repo Issue
+description: File a new repo request
+title: "[NEW REPO] <title>"
+labels: ["New Repo", "Needs Triage"]
+body:
+- type: textarea
+  attributes:
+    label: Description
+    description: A concise description of the new repo you are requesting.
+  validations:
+    required: true
